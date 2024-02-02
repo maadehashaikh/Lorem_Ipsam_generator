@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+    width: 100%;
+    height: 140%;
+    background-color: rgb(126, 89, 126);
+}
+.mainsection{
+    position: absolute;
+    width: 48%;
+    background-color: rgb(97, 69, 97);
+    height: 73%;
+    top: 15px;
+    left: 2%;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px;
+}
+.mainsection h1{
+   font-size: 28px;
+   position: relative;
+   top: 10px;
+   left: 27%;
+   color: white;
+   font-family: 'Quicksand', sans-serif;
+}
+.mainsection label[for="paragraph"]{
+    font-size: 22px;
+    color: white;
+    position: relative;
+    top: 16px;
+    left: 30px;
+}
+#paragraph{
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+.paraValue{
+    position: relative;
+    top: 30px;
+    left: 9px;
+    font-size: 19px;
+    width: 85%;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.mainsection label[for="wordsperpara"]{
+    font-size: 19px;
+    color: white;
+    position: relative;
+    top: 22px;
+    left:30px ;
+}
+#wordsperpara{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+.wordsperparaValue{
+    position: relative;
+    top: 33px;
+    left: 9px;
+    font-size: 19px;
+    width: 85%;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.mainsection [for="tag"]{
+    font-size: 21px;
+    color: white;
+    position: relative;
+    top: 38px;
+    left:30px ;
+}
+#selctfortags {
+    position: relative;
+    top: 43px;
+    left: 30px;
+    width: 75px;
+    border: 2px solid black;
+    padding: 3px 2px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.showTagHere{
+    position: relative;
+    top: 50px;
+    left: 9px;
+    font-size: 18px;
+    width: 25%;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.mainsection label[for="includeHtml"]{
+    font-size: 19px;
+    color: white;
+    position: relative;
+    top: 58px;
+    left:30px ;
+}
+#includeHtml{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    width: 60px;
+    border: 2px solid black;
+    padding: 5px 2px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.htmldisplay{
+    position: relative;
+    top: 65px;
+    left: 9px;
+    font-size: 18px;
+    width: 45%;
+    background-color: black;
+    padding: 5px;
+    color: white;
+}
+.generatedumytext{
+    position: relative;
+    top: 90px;
+    width: 30%;
+    padding: 5px;
+    background-color: grey;
+    color:white;
+    font-size: 17px;
+    left: 180px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.generatedumytext:hover{
+    background-color: rgb(97, 69, 97);
+    border: 2px solid white;
+}
+.displaydata{
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    top: 55px;
+    background-color: rgb(97, 69, 97);
+    z-index: 2;   
+    left: 100%;
+    margin-left: 8%;
+    box-shadow: 3px 3px 7px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.displaydata h3{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    margin-bottom: 5%;
+}
+.displaytext{
+    color: white;
+    top: 20px;
+}
